@@ -4,7 +4,6 @@ const fs = require('fs')
 const url = require('url')
 const port = 8000
 
-
 const server = http.createServer((req, res) => {
   let pathname = url.parse(req.url).pathname
   let pathArray = pathname.split('/')
@@ -38,19 +37,8 @@ const server = http.createServer((req, res) => {
     res.setHeader = ('Content-Type', 'text/plain')
     res.end('what are you lookin\' at?')
   }
-
-  // else {
-  //   res.end('what are you lookin\' at?')
-  // }
 })
-
-
 server.listen(port, function() {
   // console.log('may i take your order');
 })
-
-
-
-
-
 module.exports = server

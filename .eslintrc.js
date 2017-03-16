@@ -16,8 +16,8 @@ module.exports = {
         "object-shorthand": ["error", "consistent"],
         "eslint no-var": "error",
         // "curly": ["error", "multi"],
-        "brace-style": [2, "1tbs", { "allowSingleLine": true }]
-
+        "brace-style": [2, "1tbs", { "allowSingleLine": true }],
+        "no-console": "off"
 
     }
 };

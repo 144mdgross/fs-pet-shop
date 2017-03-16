@@ -39,6 +39,6 @@ const server = http.createServer((req, res) => {
   }
 })
 server.listen(port, function() {
-  // console.log('may i take your order');
+  console.log('may i take your order');
 })
 module.exports = server

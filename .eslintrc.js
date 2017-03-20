@@ -17,7 +17,8 @@ module.exports = {
         "eslint no-var": "error",
         // "curly": ["error", "multi"],
         "brace-style": [2, "1tbs", { "allowSingleLine": true }],
-        "no-console": "off"
+        "no-console": "off",
+        "no-implicit-coercion": [2, { "allow": ["+"] } ]
 
     }
 };
